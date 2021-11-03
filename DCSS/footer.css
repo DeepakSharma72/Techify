@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container {
+    background-color: #1b2841;
+    min-height: 80px;
+}
+
+.containt {
+    color: rgba(16, 28, 50, 0.4);
+    text-align: center;
+    color: wheat;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.logo img {
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    border-radius: 4px;
+}
