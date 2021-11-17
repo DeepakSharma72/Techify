@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.container {
+    position: relative;
+}
+
+.black {
+    background-color: black;
+}
+
+.section1 {
+    color: white;
+    width: 71%;
+    padding: 10px;
+}
+
+.section1 .header {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.header h4 {
+    font-size: 20px;
+    color: rgb(168, 161, 149);
+}
+
+.header p {
+    font-size: 15px;
+    color: rgb(168, 161, 149);
+}
+
+.rating {
+    display: inline;
+}
+
+.star h5 {
+    display: inline;
+}
+
+.star {
+    color: yellow;
+}
+
+.left {
+    float: left;
+}
+
+.left h6,
+.right h6 {
+    display: inline;
+}
+
+.right {
+    float: right;
+}
+
+.created a {
+    color: rgb(73, 169, 233);
+}
+
+.created a:hover {
+    text-shadow: 0.5px 0.5px 1px rgb(235, 236, 241);
+}
+
+.complexity i {
+    color: grey;
+}
+
+.section3 .info {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 11px;
+    color: black;
+    height: 250px;
+}
+
+.section3 .info h3 {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.section5 .requirement {
+    color: black;
+}
+
+.section4 .about {
+    color: black;
+}
+
+.section4 .about h3 {
+    text-decoration: underline;
+}
+
+.about ul {
+    text-align: center;
+}
+
+.instructor-image {
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.instructor-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+}
+
+.about ul li {
+    display: inline;
+}
+
+.about-instructor {
+    padding: 5px;
+}
+
+.about-instructor p {
+    font-size: 10px;
+}
+
+.section2 {
+    width: 25%;
+    border: 2px solid wheat;
+    margin-top: 30px;
+    position: fixed;
+}
+
+.section2:hover {
+    box-shadow: 3px 3px rgb(89, 92, 92);
+}
+
+.section2 .image {
+    height: 30%;
+}
+
+.image img {
+    height: 40%;
+    width: 100%;
+}
+
+.section2 .content {
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.buy {
+    padding: 2px;
+}
+
+.buy-now {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buy-now:hover {
+    background-color: rgb(207, 198, 198);
+    transition: all 0.5s ease-in-out;
+    text-shadow: ivory;
+}
+
+.purchasing-link {
+    font-size: medium;
+    font-weight: bold;
+    padding: 1px;
+    color: black;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.buy a {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: x-large;
+}
+
+.values {
+    padding: 10px;
+}
+
+.section6 {
+    color: black;
+}
+
+.section6 .company {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 11px;
+    color: black;
+    height: 120px;
+}
+
+.section6 .icons {
+    color: grey;
+    padding: 5px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

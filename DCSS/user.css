@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("../Dimages/login.jpg");
+    background-size: cover;
+    justify-content: center;
+    color: white;
+}
+
+.login-form {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.user {
+    margin: 15px 0;
+}
+
+label,
+h3 {
+    font-size: 20px;
+    margin: 10px 0px;
+    margin-bottom: 10px;
+}
+
+.login-form input {
+    margin-top: 10px;
+    border-radius: 17px;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px 10px;
+}
+
+select {
+    border-radius: 17px;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px 10px;
+}
+
+form button {
+    margin-top: 15px;
+    background: white;
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.btn {
+    margin-bottom: 15px;
+}
+
+button:hover {
+    text-shadow: 0 0 20px blue;
+    background-color: rgb(90, 189, 235);
+}
+
+form input:focus,
+form select:focus {
+    border: 3px solid rgb(70, 216, 226);
+    color: rgb(14, 15, 15);
+    transition: all 0.2s ease;
+}
+
+form .new-user {
+    text-align: center;
+    font-size: 20px;
+}
+
+form p {
+    display: inline;
+}
+
+form a {
+    cursor: pointer;
+    color: rgb(86, 223, 241);
+}
+
+form a:hover {
+    text-shadow: 0 0 20px rgb(77, 231, 236);
+    color: rgb(31, 234, 248);
+}
+
+form .user,
+form .pass {
+    position: relative;
+}
+
+.user i,
+.pass i {
+    position: absolute;
+    font-size: 20px;
+    top: 60%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: black;
+}

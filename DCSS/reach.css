@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.head{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.head p{
+    font-size: 20px;
+}
+
+.head h6,.head h7{
+    color: rgb(182, 172, 172);
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contact{
+    color: rgb(65, 1, 65);
+    background-color: rgb(95, 207, 241);
+    width: 45%;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+label,.reviews p{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pos{
+    display: inline-block;
+    width: 40%;
+    margin: 15px;
+}
+
+form input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+}
+
+
+form input:focus{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-color: rgb(16, 19, 224);
+    color: rgb(14, 15, 15);
+    transition: all 0.2s ease;
+}
+
+form .rel{
+    position: relative;
+}
+
+form button{
+    background: blue;
+    color : black;
+    font-size: 15px;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 20%;
+    float: left;
+}
+
+.margin{
+    margin-top: 0px;
+}
+
+.contact i{
+    color: black;
+    position: absolute;
+    font-size: 13px;
+    top: 71%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.btn{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+button:hover{
+    text-shadow: 0 0 20px blue;
+    background-color: rgb(90, 189, 235);
+}
+
+.reach{
+    background-color: blue;
+    width: 30%;
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+}
+
+.reach .heading{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.location a{
+    color: white;
+}
+
+.location a:hover{
+    color: rgb(227, 231, 220);
+    transition: all 1s ease-in-out;
+}
+
+.phone a:hover{
+    color: rgb(12, 233, 41);
+    transition: all 1s ease-in-out;
+}
+
+.email a:hover{
+    color: rgb(235, 70, 70);
+    transition: all 1s ease-in-out;
+}
+
+.location i{
+    font-size: 25px;
+    margin-right: 70px;
+}
+
+.location h4,.location h5{
+    display: inline;
+}
+
+.location h5{
+    margin-left: 110px;
+}
+
+.phone{
+    margin-top: 20px;
+}
+
+.email{
+    margin-bottom: 100px;
+}
+
+.email h5{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    font-size: 40px;
+    justify-content: space-evenly;
+}
