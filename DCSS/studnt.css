@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.right-box {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 730px;
+    height: 580px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.pos {
+    display: inline-block;
+    width: 49%;
+}
+
+.signup-form {
+    margin-top: 30px;
+    padding: 5px;
+    width: 500px;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.signup-form input {
+    border-radius: 17px;
+    width: 100%;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+form button {
+    background: rgb(17, 62, 129);
+    color: black;
+    font-size: 20px;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    text-shadow: 0 0 20px blue;
+    background-color: rgb(90, 189, 235);
+}
+
+form input:focus {
+    border: 3px solid rgb(70, 216, 226);
+    color: rgb(14, 15, 15);
+    transition: all 0.2s ease;
+}
+
+form p {
+    display: inline;
+}
+
+form .new-user {
+    text-align: center;
+    font-size: 20px;
+}
+
+form a {
+    cursor: pointer;
+    color: rgb(40, 52, 226);
+}
+
+form a:hover {
+    text-shadow: 0 0 20px rgb(40, 14, 156);
+    color: rgb(31, 234, 248);
+}
+
+form .rel {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: black;
+}
+
+h6 {
+    text-align: center;
+}
+
+.left-box {
+    margin-top: 30px;
+    height: 617px;
+    width: 765px;
+    /* position: absolute; */
+    background-image: url("../Dimages/stud.jpg");
+    background-size: cover;
+    background-position: center;
+}
