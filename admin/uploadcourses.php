@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<?php 
+        include 'newheader.php'
+?>
 <head>
     <title>About us</title>
     <link rel="stylesheet" type="text/css">
