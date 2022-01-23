@@ -1,0 +1,374 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    background-image: url('Dimages/4.jpg');
+    background-size: cover;
+}
+
+.section1 {
+    height: 100vh;
+    width: 30%;
+    background-color: rgb(2, 2, 68);
+    margin-top: 15px;
+}
+
+.active {
+    background-color: rgb(86, 226, 245);
+    color: black;
+}
+
+.values {
+    color: white;
+    font-size: 20px;
+}
+
+.values .icon {
+    cursor: pointer;
+    padding: 15px;
+    padding-left: 40px;
+}
+
+.values .icon:hover {
+    background-color: rgb(86, 226, 245);
+    color: black;
+}
+
+.values .icon:active {
+    color: black;
+    background-color: rgb(86, 226, 245);
+}
+
+.section2 {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 .dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prop {
+    height: 200px;
+    width: 250px;
+    margin: 15px;
+}
+
+.prop i {
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 80px;
+    color: rgb(59, 3, 73);
+}
+
+.prop div {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.prop h2 {
+    text-align: center;
+    margin-top: -7px;
+    margin-right: 2px;
+}
+
+.table2 p,
+.table3 p {
+    text-align: center;
+    transform: translate(15%, 25%);
+    font-size: 40px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.table1 p {
+    text-align: center;
+    transform: translate(22%, 25%);
+    font-size: 40px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.prop div {
+    font-size: 30px;
+}
+
+.table1 {
+    background-color: crimson;
+}
+
+.table2 {
+    background-color: rgb(190, 190, 7);
+}
+
+.table3 {
+    background-color: rgb(124, 196, 18);
+}
+
+#section3 {
+    display: none;
+}
+
+.section3 {
+    width: 60%;
+    /* margin-left: 50px; */
+}
+
+.section3 .image {
+    text-align: center;
+    justify-content: center;
+}
+
+.section3 .image img {
+    height: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.section3 .image img:hover {
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+
+.section3 .info {
+    text-align: center;
+    justify-content: center;
+}
+
+.section3 .info h5 {
+    color: grey;
+}
+
+.section3 .info b {
+    color: rgb(2, 2, 68);
+    font-size: 30px;
+}
+
+.section3 label {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section3 form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section3 .pos {
+    display: inline-block;
+    width: 40%;
+    margin: 15px;
+}
+
+.section3 form input {
+    width: 100%;
+    font-size: 15px;
+    padding: 5px 7px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.section3 form .course-name {
+    overflow: hidden;
+}
+
+.section3 form input:focus {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-color: rgb(16, 19, 224);
+    color: rgb(14, 15, 15);
+    transition: all 0.2s ease;
+}
+
+.section3 form .address {
+    display: block;
+    width: 84%;
+    overflow: hidden;
+}
+
+.section3 form .rel {
+    position: relative;
+}
+
+.section3 form button {
+    margin-top: 20px;
+    background: blue;
+    color: black;
+    font-size: 15px;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 20%;
+    float: left;
+}
+
+.section3 .margin {
+    margin-top: 14px;
+}
+
+.section3 i {
+    color: black;
+    position: absolute;
+    font-size: 13px;
+    top: 71%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.section3 .btn {
+    width: 100%;
+}
+
+.section3 button:hover {
+    text-shadow: 0 0 20px blue;
+    background-color: rgb(90, 189, 235);
+}
+
+.section3 .icons {
+    display: inline-block;
+}
+
+.section3 .icons img {
+    height: 718px;
+    width: 368px;
+}
+
+.section3 .btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section3 .buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.section3 .text-center {
+    display: inline;
+}
+
+.section3 .text-center a {
+    text-align: center;
+    justify-content: center;
+    margin-left: 147px;
+    width: 125px;
+}
+
+#section6 {
+    display: none;
+}
+
+.section6 {
+    float: left;
+    width: 65%;
+    margin-left: 50px;
+}
+
+.section6 .heading {
+    float: left;
+}
+
+.section6 .heading p {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section6 b {
+    color: rgb(2, 2, 68);
+    font-size: 50px;
+}
+
+.section6 textarea {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.section6 img {
+    height: 340px;
+    width: 84%;
+}
+
+.rev-submit {
+    margin-top: 10px;
+    margin-left: 225px;
+    margin-bottom: 10px;
+    background: blue;
+    color: black;
+    font-size: 15px;
+    padding: 5px 5px;
+    border-radius: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 17%;
+}
+
+#section5 {
+    display: none;
+}
+
+.section5 {
+    float: left;
+    width: 65%;
+    margin-left: 50px;
+    width: 450px;
+}
+
+.section5 .query {
+    margin-bottom: 30px;
+}
+
+.section5 h1 {
+    font-weight: 600;
+}
+
+.section5 p {
+    color: rgb(87, 87, 87);
+}
+
+.section5 .or {
+    transform: translateY(-60%);
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.section5 .call {
+    display: inline-block;
+}
+
+.section5 .call .call-icon i {
+    font-size: 70px;
+    color: blue;
+    border-radius: 50%;
+}
+
+.section5 .call .call-icon .tollfree {
+    transform: translate(30%, -90%);
+}
+
+.section5 .call .call-icon .tollfree h5 {
+    color: rgb(87, 87, 87);
+}
+
+.section5 .call .call-icon .tollfree p {
+    font-weight: 600;
+    color: black;
+    font-size: 30px;
+}
