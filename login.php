@@ -4,7 +4,8 @@ if (isset($_POST['submit'])) {
     $role = $_POST['role-issued'];
     $username = $_POST['user-name'];
     $password = $_POST['password'];
-    $conn = mysqli_connect('localhost', 'root', '', 'techify') or die("Connection Failed");
+    // $conn = mysqli_connect('localhost', 'root', '', 'techify') or die("Connection Failed");
+    include 'config.php';
     $sql;
     if ($role == '1') {
         $sql = "SELECT sid,fname,password FROM Students WHERE username = '{$username}' and password = '{$password}'";

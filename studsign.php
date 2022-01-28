@@ -12,7 +12,9 @@ if(isset($_POST['submit']))
     $password = $_POST['password'];
     $con_password = $_POST['con-password'];
     if($password == $con_password)
-    {   $conn = mysqli_connect('localhost','root','','techify') or die('Connection failed');
+    { 
+        // $conn = mysqli_connect('localhost','root','','techify') or die('Connection failed');
+        include 'config.php';
         $sql = "INSERT INTO Students(fname,lname,Gender,studemail,collegename,studcityname,username,password)
             VALUES('{$fname}','{$lname}','{$gender}','{$email}','{$college}','{$cityname}','{$username}','{$password}')";
         mysqli_query($conn,$sql) or die("Query Failed");

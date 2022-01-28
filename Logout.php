@@ -2,5 +2,6 @@
 session_start();
 session_unset();
 session_destroy();
-header('location: http://localhost/techify/home/home.php');
+include 'config.php';
+header('location: '.$hostname.'/home/home.php');
 ?>
